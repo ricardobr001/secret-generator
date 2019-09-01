@@ -1,0 +1,24 @@
+{
+  "name": "secret-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ricardobr001/secret-generator",
+  "author": "Ricardo Mendes <ricardomlealjr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js -e js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^1.19.1"
+  }
+}
